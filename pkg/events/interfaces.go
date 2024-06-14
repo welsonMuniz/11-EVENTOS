@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// teste
 type EventInterface interface {
 	GetName() string
 	GetDateTime() time.Time

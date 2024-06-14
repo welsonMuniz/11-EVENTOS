@@ -160,6 +160,7 @@ type MockHandler struct {
 	mock.Mock
 }
 
+// teste
 func (m *MockHandler) Handle(event EventInterface, wg *sync.WaitGroup) {
 	m.Called(event)
 	wg.Done()

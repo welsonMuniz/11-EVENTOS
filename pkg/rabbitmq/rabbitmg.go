@@ -35,6 +35,7 @@ func Consume(ch *amqp.Channel, out chan amqp.Delivery, queue string) error {
 	return nil
 }
 
+// teste
 func Publish(ch *amqp.Channel, body string, exName string) error {
 	err := ch.Publish(
 		exName, //"amq.direct",
